@@ -1,0 +1,30 @@
+h2 {
+    font-weight: bold;
+}
+
+b {
+    color: darkcyan;
+}
+
+.addBtn {
+    color: white;
+    background-color: green;
+    font-weight: bold;
+    border: none;
+    padding: 15px 40px;
+    text-align: center;
+    font-size: 20px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.addBtn:hover, .addBtn:active {
+    transform: scale(1.2);
+}
+
+.addBtn:disabled {
+    background-color: gray;
+}

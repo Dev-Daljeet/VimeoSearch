@@ -1,0 +1,7 @@
+<div *ngFor="let video of videoList">
+<app-video [videoId]="video.id" [previewImage]="video['thumbnail_360_url']" [videoTitle]="video.title" [dateCreated]="video['created_time']" [numberOfViews]="video['views_total']" [nameOfCreator]="video['owner.username']" [profilePhotoOfCreator]="video['owner.avatar_80_url']">
+</app-video>
+<br />
+<hr />
+<br />
+</div>

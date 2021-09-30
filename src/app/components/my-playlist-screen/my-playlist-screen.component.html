@@ -1,0 +1,6 @@
+<button class="clearBtn"(click)="clearPlaylist()">Clear Playlist</button>
+<br />
+<h1>Your Playlist</h1>
+<p *ngIf="(displayNoVideosMessage())">There are no videos in the playlist.</p>
+<app-listing [videoList]="videoPlaylist"></app-listing>
+

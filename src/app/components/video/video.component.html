@@ -1,0 +1,14 @@
+<div style="font-size: 18px">
+<div>
+<a href={{getVideoUrl()}} target="_blank"><img [src]="previewImage" width="600" height="350" ></a>
+</div>
+<div>
+<h2><a href={{getVideoUrl()}} target="_blank">{{videoTitle}}</a></h2>
+<p><b>Date uploaded:</b> {{dateCreated*1000 | date}}</p>
+<p><b>Total views:</b> {{numberOfViews}}</p>
+<p><b>Uploaded by</b></p>
+<img [src]="profilePhotoOfCreator" width="200" height="150">
+<p><b>Uploader name:</b> {{nameOfCreator}}</p>
+<button class="addBtn" (click)="addVideoToPlaylist()" [disabled]="isPresentInVideoPlaylist()">{{isPresentInVideoPlaylist()?"Already Added":"Add"}}</button>
+</div>
+</div>

@@ -1,0 +1,10 @@
+<div>
+<input type="text" id="search" [(ngModel)]="searchKey" placeholder="Search for a video" />
+<br />
+<br />
+<button class="btn" (click)="getVideosFromAPI()">Search</button>
+<br />
+<br />
+<app-listing [videoList]="videoList"></app-listing>
+</div>
+
