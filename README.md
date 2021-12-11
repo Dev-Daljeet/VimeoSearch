@@ -1,27 +1,34 @@
 # VimeoSearch
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.1.
+This application allows the user to search videos on the Vimeo platform and manage (add and remove) videos in a playlist
 
-## Development server
+## Installation and Setup Instructions 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+**Note: You will need [node](https://nodejs.org/en/) and Angular CLI installed globally on your machine.**
 
-## Code scaffolding
+Firstly, clone down this repository.  
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```shell
+git clone https://github.com/Dev-Daljeet/VimeoSearch
 
-## Build
+cd VimeoSearch
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Installation:
 
-## Running unit tests
+`npm install`   
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### To start a server:
 
-## Running end-to-end tests
+`ng serve` or  `npm start` 
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### To visit the app:
 
-## Further help
+Open `http://localhost:4200/` to view it in the browser  
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+# License
+MIT License
+Copyright (c) 2021 Daljeet Singh
+
+Refer to **LICENSE** file for full information.
+
