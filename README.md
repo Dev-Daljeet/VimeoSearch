@@ -2,9 +2,13 @@
 
 This application allows the user to search videos on the Vimeo platform and manage (add and remove) videos in a playlist
 
+## A sample screenshot/gif of Project
+
+![Screesshot of output](https://github.com/Dev-Daljeet/Screenshots/blob/master/vimeo_search/vimeo_search.gif?raw=true)
+
 ## Installation and Setup Instructions 
 
-**Note: You will need [node](https://nodejs.org/en/) and Angular CLI installed globally on your machine.**
+**Note: You will need [node](https://nodejs.org/en/) and [Angular CLI](https://angular.io/cli) installed globally on your machine.**
 
 Firstly, clone down this repository.  
 
